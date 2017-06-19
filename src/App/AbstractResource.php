@@ -40,7 +40,7 @@ abstract class AbstractResource
             'host'     => 'localhost',
             'dbname'   => 'test',
             'user'     => 'root',
-            'password' => 'obscure828',
+            'password' => 'aaaaaaaa',
         );
 
         return EntityManager::create($connectionOptions, $config);
